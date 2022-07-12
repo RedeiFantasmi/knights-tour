@@ -1,7 +1,7 @@
 #grille-cases {
 	display: grid;
-	grid-template-columns: repeat(4, 1fr);
-	
+	grid-template-columns: repeat(4, 20vmin);
+	grid-auto-rows: 20vmin;
 	grid-gap: 0;
 }
 
