@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en-EN">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Knight's tour</title>
+
+        <link rel="icon" href="./rick.ico">
+    
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            body {
+                min-height: 100vh;
+            }
+
+            main {
+                width: 100%;
+                height: 100vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        </style>
+    </head>
+
+    <body>
+        <main></main>
+        <!-- <img src="./never-gonna.gif" alt=""> -->
+        <script src="./main.js"></script>
+        <script>
+            const gameController = knightsTour(document.querySelector('main'));
+            gameController.init(5);
+        </script>
+    </body>
+</html>
